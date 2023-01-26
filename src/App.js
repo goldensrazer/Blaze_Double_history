@@ -41,11 +41,11 @@ function App() {
       <h1>Bem-vindo</h1>
 
       <img className='preview' src={preview} />
-      <h3>Lembrando o histórico é, dessa chave para tras, quando eu acertar para frente, fica todo mundo rico!</h3>
+      <h3>Lembrando o histórico é, dessa chave para trás, quando eu acertar para frente, fica todo mundo rico!</h3>
 
       <div className='form'>
         <div className='server_seed'>
-          <h3>Digite server_seed do ultimo jogo ultima key 2022-01-25 20:39</h3>
+          <h3>Digite server_seed do ultimo jogo !!! ultima key 2022-01-25 20:39</h3>
           <input
             type={'text'}
             value={state.server_seed}
