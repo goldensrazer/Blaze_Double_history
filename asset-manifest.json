@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Blaze_Double_history/static/css/main.6f10707b.css",
+    "main.js": "/Blaze_Double_history/static/js/main.773e8f6e.js",
+    "static/media/preview.gif": "/Blaze_Double_history/static/media/preview.918d57209aaa44091c25.gif",
+    "index.html": "/Blaze_Double_history/index.html",
+    "main.6f10707b.css.map": "/Blaze_Double_history/static/css/main.6f10707b.css.map",
+    "main.773e8f6e.js.map": "/Blaze_Double_history/static/js/main.773e8f6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f10707b.css",
+    "static/js/main.773e8f6e.js"
+  ]
+}
