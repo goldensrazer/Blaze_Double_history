@@ -19,6 +19,10 @@ code {
   padding: 30px;
 }
 
+.attemption {
+  color: #FFEA20;
+}
+
 input[type=text] {
   width: 100%;
   padding: 12px 20px;

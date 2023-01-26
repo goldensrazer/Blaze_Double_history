@@ -40,9 +40,9 @@ function App() {
     <div className="App">
       <h1>Bem-vindo</h1>
 
-      <img className='preview' src={preview} />
+      <img alt='' className='preview' src={preview} />
       <h3>Created by Kel R.C</h3>
-      <h3>Lembrando o histórico é, dessa chave para trás, quando eu acertar para frente, fica todo mundo rico!</h3>
+      <h3 className='attemption'>Lembrando o histórico é, dessa chave para trás, quando eu acertar para frente, fica todo mundo rico!</h3>
 
       <div className='form'>
         <div className='server_seed'>
