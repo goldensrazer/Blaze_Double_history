@@ -1,13 +1,199 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #0f1923;
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.tile-wrapper,
+.roulette-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lg-box {
+  width: 96px;
+  height: 96px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lg-box img {
+  height: 53px
+}
+
+.red {
+  background-color: #f12c4c;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #262f3c;
+}
+
+.number {
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  font-size: 18px;
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form div {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form div span {
+  align-items: flex-start;
+}
+
+.server_seed {
+  width: 100% !important;
+}
+
+.count input {
+  width: 30% !important;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 105px);
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 8px;
+  justify-content: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .server_seed {
+    max-width: 80%;
+  }
+
+  .count input {
+    width: 100% !important;
+  }
+
+  .parent {
+    grid-template-columns: repeat(3, 105px);
+  }
+  .preview {
+    width: 100%;
+  }
+}
+
+.gif {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .server_seed {
+    max-width: 80%;
+  }
+
+  .count input {
+    max-width: 500px;
+  }
+
+  .parent {
+    grid-template-columns: repeat(5, 105px);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .server_seed {
+    max-width: 500px;
+  }
+
+  .count input {
+    width: 100% !important;
+  }
+
+  .parent {
+    grid-template-columns: repeat(6, 105px);
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .parent {
+    grid-template-columns: repeat(10, 105px);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .parent {
+    grid-template-columns: repeat(10, 105px);
+  }
 }
